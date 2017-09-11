@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homepage look and feel should render correctly 1`] = `
+<div>
+  <p>
+    Super bare page I'm not sure what to do with
+  </p>
+</div>
+`;
