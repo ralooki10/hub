@@ -15,7 +15,10 @@ In order to run the app on your machine, you will need the following:
 
 ### How to run
  
-`npm run dev -- -p 4000`
+```
+npm install
+npm run dev -- -p 4000
+```
 
 And go to `localhost:4000` in your browser
 
