@@ -5,6 +5,8 @@ A place to shove in stuff about me and eventually projects I've been working on.
 ### Tech stack
 My hub is a node app made with [Next.js](https://github.com/zeit/next.js/) which I found out about at a JavaScript conference. It uses React for frontend amazingness and I'm looking forward to sprinkle in some swish interactions provided by [RxJS](https://github.com/Reactive-Extensions/RxJS).
 
+![alt text][logo]
+
 ### Prerequisites
 
 In order to run the app on your machine, you will need the following:
