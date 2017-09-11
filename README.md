@@ -22,4 +22,12 @@ npm run dev -- -p 4000
 
 And go to `localhost:4000` in your browser
 
+### Running tests
+
+```
+npm test
+```
+
+
+
 [logo]: https://cloud.githubusercontent.com/assets/13041/19686250/971bf7f8-9ac0-11e6-975c-188defd82df1.png

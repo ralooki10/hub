@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default () =>
+export default () => (
     <div>
         <Head>
             <title>Raluca Puichilita</title>
@@ -8,3 +8,4 @@ export default () =>
         </Head>
         <p>Super bare page I'm not sure what to do with</p>
     </div>
+);

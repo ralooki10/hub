@@ -1,2 +1,5 @@
+node_modules/
 .idea/
 /.next/
+.babelrc
+__tests__/pages/__snapshots__/
