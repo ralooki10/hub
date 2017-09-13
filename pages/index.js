@@ -1,11 +1,13 @@
-import Head from 'next/head'
+import React from 'react'
+import Head from '../components/Head.react'
 
-export default () => (
-    <div>
-        <Head>
-            <title>Raluca Puichilita</title>
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        </Head>
-        <p>Super bare page I'm not sure what to do with</p>
-    </div>
-);
+export default class extends React.Component {
+	render() {
+		return (
+			<div>
+				<Head/>
+				Hello World!
+			</div>
+		)
+	}
+}
