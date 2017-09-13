@@ -1,6 +1,7 @@
 import React from 'react';
 
 let colourPalette = {
+	black: '#000000',
 	coral: '#E1757C',
 	darkBlue: '#023043',
 	hotPink: '#D0265F',
@@ -9,9 +10,15 @@ let colourPalette = {
 	turquoise: '#22A9AF'
 };
 
+let fonts = {
+	openSans: 'Open sans',
+};
+
 export default class Navbar extends React.Component {
 	render() {
 		let navigationStyle = {
+			fontFamily: fonts.openSans,
+			fontWeight: 100,
 			height: 100,
 			backgroundColor: colourPalette.turquoise,
 			color: colourPalette.offWhite,
@@ -19,7 +26,7 @@ export default class Navbar extends React.Component {
 		};
 
 		return (
-			<div className="navigation" style={navigationStyle}>
+			<div style={navigationStyle}>
 				<p>A link in the navbar</p>
 				<p>Another link in the navbar</p>
 				<p>Blah blah blah</p>
