@@ -23,7 +23,7 @@ export default class Navbar extends React.Component {
 				{
 					this.props.items.map((item, index) => {
 						return <div key={index} style={navigationItemStyle}>
-							<NavItem navigationItemName={item}/>
+							<NavItem navigationItemName={item.navigationName}/>
 						</div>
 					})
 				}

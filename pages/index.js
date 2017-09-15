@@ -1,15 +1,14 @@
 import React from 'react'
 import Head from '../components/Head.react'
 import Navbar from '../components/Navbar.react'
-
-let navbarItems = ['About me', 'Education', 'Projects', 'Recommendations'];
+import content from '../content/content'
 
 export default class extends React.Component {
 	render() {
 		return (
 			<div>
 				<Head/>
-				<Navbar items={navbarItems}/>
+				<Navbar items={ content }/>
 				Hello World!
 			</div>
 		)

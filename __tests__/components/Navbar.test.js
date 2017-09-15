@@ -9,5 +9,16 @@ describe('navigation bar', () => {
 
 		expect(count).toBe(3);
 	});
+
+	it('should render the correct name for a navigation object', () => {
+		var contentObject = {
+			navigationName: 'Test name',
+			blurb: 'Some test blurb'
+		};
+		let navbarItems = [contentObject];
+		let wrapper = mount(<Navbar items={navbarItems}/>);
+
+		expect(wrapper.find('.navigationItem').text()).toBe('Test name');
+	});
 });
 
