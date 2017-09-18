@@ -1,18 +1,28 @@
-export default [
+function getBlurbForPage(itemName) {
+	return content.filter(item => item.name == itemName)[0].blurb;
+}
+
+let content = [
 	{
-		navigationName: 'About me',
+		name: 'About me',
+		url: '/',
 		blurb: 'Some introductory stuff about me'
 	},
 	{
-		navigationName: 'Education',
+		name: 'Education',
+		url: '/education',
 		blurb: 'University of Manchester'
 	},
 	{
-		navigationName: 'Projects',
+		name: 'Projects',
+		url: '/projects',
 		blurb: 'Not sure what to put in here'
 	},
 	{
-		navigationName: 'Recommendations',
+		name: 'Recommendations',
+		url: '/other',
 		blurb: 'nordic.js is an awesome conference'
 	}
 ];
+
+export { content, getBlurbForPage }

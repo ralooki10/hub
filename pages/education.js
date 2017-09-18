@@ -8,8 +8,8 @@ export default class extends React.Component {
 		return (
 			<div>
 				<Head/>
-				<Navbar items={ content }/>
-				{getBlurbForPage('About me')}
+				<Navbar items={content}/>
+				{getBlurbForPage('Education')}
 			</div>
 		)
 	}

@@ -10,13 +10,13 @@ describe('navigation bar', () => {
 		expect(count).toBe(3);
 	});
 
-	it('should render the correct name for a navigation object', () => {
-		var contentObject = {
-			navigationName: 'Test name',
+	it('should render the correct name for a navigation item', () => {
+		let testItem = {
+			name: 'Test name',
+			url: '/',
 			blurb: 'Some test blurb'
 		};
-		let navbarItems = [contentObject];
-		let wrapper = mount(<Navbar items={navbarItems}/>);
+		let wrapper = mount(<Navbar items={[testItem]}/>);
 
 		expect(wrapper.find('.navigationItem').text()).toBe('Test name');
 	});

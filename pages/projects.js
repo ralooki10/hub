@@ -9,7 +9,7 @@ export default class extends React.Component {
 			<div>
 				<Head/>
 				<Navbar items={ content }/>
-				{getBlurbForPage('About me')}
+				{getBlurbForPage('Projects')}
 			</div>
 		)
 	}
