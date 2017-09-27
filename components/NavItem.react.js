@@ -11,14 +11,18 @@ export default class NavItem extends React.Component {
 		let navigationItemStyle = {
 			fontFamily: styles.fonts.openSans,
 			fontSize: 20,
-			color: styles.colourPalette.offWhite,
 			padding: 15
+		};
+
+		let plainLinkStyle = {
+			color: styles.colourPalette.offWhite,
+			textDecoration: 'none'
 		};
 
 		return (
 			<div style={navigationItemStyle} className="navigationItem">
 				<Link href={this.navigationUrl}>
-					<a>{this.props.navigationItem.name}</a>
+					<a style={plainLinkStyle}>{this.props.navigationItem.name}</a>
 				</Link>
 			</div>
 		)
